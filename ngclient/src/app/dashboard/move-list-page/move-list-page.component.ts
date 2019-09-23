@@ -26,8 +26,6 @@ export class MoveListPageComponent implements OnInit {
     movename = "file_example_MP4_1280_10MG.mp4";
     item.dataurl = `/assets/${movename}`;
     movielist.push(item);
-
-
     this.dataSource.data = movielist;
   }
   showmove(iteminfo) {
